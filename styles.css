@@ -67,19 +67,19 @@ body{
 
 .flower{
     position:absolute;
-    font-size:4rem;
+    font-size:clamp(3rem, 8vw, 6rem);
     opacity:0;
 }
 
 .flower-left{
-    left:-100px;
-    top:20px;
+    left:-5vw;
+    top:2vh;
     animation:flowerLeft 2s forwards;
 }
 
 .flower-right{
-    right:-100px;
-    top:20px;
+    right:-5vw;
+    top:2vh;
     animation:flowerRight 2s forwards;
 }
 
