@@ -74,13 +74,13 @@ body{
 .flower-left{
     left:-1vw;
     top:2vh;
-    animation:flowerLeft 2s forwards;
+    animation:flowerLeft 4s forwards;
 }
 
 .flower-right{
     right:-1vw;
     top:2vh;
-    animation:flowerRight 2s forwards;
+    animation:flowerRight 4s forwards;
 }
 
 .gallery-container{
