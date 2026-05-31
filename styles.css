@@ -73,6 +73,8 @@ body{
 .gallery-text{
     margin-top:10px;
     color:white;
+    display: inline;
+    margin-left: 15%;
 }
 
 .flip-card{
@@ -85,9 +87,6 @@ body{
     perspective:1000px;
 
     cursor:pointer;
-    box-shadow: 0 5px 15px rgb(207, 247, 7); 
-    overflow:hidden;
-    border-radius: 19px;
 }
 
 .flip-inner{
