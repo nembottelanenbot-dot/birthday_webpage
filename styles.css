@@ -65,6 +65,24 @@ body{
     padding: 0 30px;
 }
 
+.flower{
+    position:absolute;
+    font-size:4rem;
+    opacity:0;
+}
+
+.flower-left{
+    left:-100px;
+    top:20px;
+    animation:flowerLeft 2s forwards;
+}
+
+.flower-right{
+    right:-100px;
+    top:20px;
+    animation:flowerRight 2s forwards;
+}
+
 .gallery-container{
     margin-top:40px;
     text-align:center;
