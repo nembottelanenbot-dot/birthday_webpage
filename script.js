@@ -122,3 +122,8 @@ function resizeCanvas(){
 
 resizeCanvas();
 window.addEventListener("resize", resizeCanvas);
+const music = 
+document.getElementById("bgMusic");
+document.addEventListener("click", () => {
+    music.play();
+}, {once: true });
