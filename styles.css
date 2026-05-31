@@ -72,13 +72,13 @@ body{
 }
 
 .flower-left{
-    left:-5vw;
+    left:-1vw;
     top:2vh;
     animation:flowerLeft 2s forwards;
 }
 
 .flower-right{
-    right:-5vw;
+    right:-1vw;
     top:2vh;
     animation:flowerRight 2s forwards;
 }
