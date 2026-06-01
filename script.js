@@ -83,9 +83,16 @@ let currentImage = 0;
 
 const slider = document.getElementById("slider");
 const card = document.querySelector(".flip-card");
+const birthdayAudio = document.getElementById("birthday-audio");
 
 if (card && slider) {
     card.addEventListener("click", () => {
+        if (birthdayAudio) {
+            birthdayAudio.play().catch((error) => {
+                console.warn("Unable to play audio on click:", error);
+            });
+        }
+
         card.classList.add("flipped");
 
         setTimeout(() => {
@@ -133,6 +140,3 @@ window.addEventListener('DOMContentLoaded', () => {
 
     typeText();
 });
-
-    music.play();
-}, {once: true });
